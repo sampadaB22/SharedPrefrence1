@@ -19,7 +19,7 @@ public class Util {
         preferences = context.getSharedPreferences("login",Context.MODE_PRIVATE);
         editor =preferences.edit();
 
-        String userId = preferences.getString("userId","");
+
 
         editor.putString("userId",id);
         editor.putString("userPassword",pwd);
